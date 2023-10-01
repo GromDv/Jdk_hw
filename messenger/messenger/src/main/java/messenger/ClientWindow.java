@@ -24,10 +24,6 @@ public class ClientWindow extends JFrame {
         setLocation(500,500);
         setTitle("Client of messenger");
         setResizable(false);
-//        int centerGameWindowX = srvWin.getX() + srvWin.getWidth()/2;
-//        int centerGameWindowY = srvWin.getY() + srvWin.getHeight()/2;
-//        setLocation(centerGameWindowX - WIDTH/2, centerGameWindowY - HEIGHT/2);
-//        setSize(WIDTH, HEIGHT);
 
         add(createloginPanel(),BorderLayout.NORTH);
         txtArea = new JTextArea();
