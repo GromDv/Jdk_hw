@@ -2,6 +2,8 @@ package messenger;
 
 public class ServerMain {
     public static void main(String[] args) {
-        new ServerWindow();
+        Server srv = new Server();
+        new ClientGUI(srv);
+        new ClientGUI(srv);
     }
 }
